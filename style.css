@@ -510,6 +510,19 @@ button:active {
   padding: 2rem 1.5rem;
   border-radius: 0.5rem;
 }
+.pricing .pricing_wrapper .pricing_carts .pricing_cart .cart_head {
+  position: relative;
+}
+.pricing .pricing_wrapper .pricing_carts .pricing_cart .cart_head .cart_badge {
+  position: absolute;
+  top: -1rem;
+  right: 0;
+  background: #005ffd;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.5rem 0.7rem;
+  border-radius: 0.3rem;
+}
 .pricing .pricing_wrapper .pricing_carts .pricing_cart .cart_head p {
   margin: 0.7rem 0;
   font-size: 0.9rem;
