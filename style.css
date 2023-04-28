@@ -884,7 +884,7 @@ div.centered.dot span::after {
     font-size: 4.3rem;
   }
 }
-
+/* media for 983px */
 @media screen and (max-width: 893px) {
   .coaches .coaches_wrapper .coaches_carts .coaches_cart:last-child {
     display: none;
@@ -893,6 +893,7 @@ div.centered.dot span::after {
     width: 85%;
   }
 }
+/* media for tablet */
 @media screen and (max-width: 768px) {
   section {
     padding: 3rem 0;
@@ -961,6 +962,7 @@ div.centered.dot span::after {
     gap: 2rem;
   }
 }
+/* media for 679px */
 @media screen and (max-width: 679px) {
   .coaches .coaches_wrapper .coaches_carts .coaches_cart:nth-child(3) {
     display: none;
@@ -981,6 +983,7 @@ div.centered.dot span::after {
     width: 15rem;
   }
 }
+/* media for 460px */
 @media screen and (max-width: 460px) {
   html {
     font-size: 75%;
@@ -1025,11 +1028,13 @@ div.centered.dot span::after {
     padding: 2rem 1rem;
   }
 }
+/* media for 350 px small devices */
 @media screen and (max-width: 350px) {
   html {
     font-size: 70%;
   }
 }
+/* media for 310 px extra small devices */
 @media screen and (max-width: 310px) {
   html {
     font-size: 60%;
